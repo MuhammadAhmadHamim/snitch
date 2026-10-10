@@ -61,7 +61,6 @@ else:
     fig2 = px.line(df_daily, x="day", y="total", markers=True)
     fig2.update_traces(line_color="#D4AF37", marker=dict(color="#FFD700", size=7))
     fig2.update_xaxes(type="category")
-    fig2.update_yaxes(dtick=50)
     st.plotly_chart(fig2, use_container_width=True)
 
 # ---------- Chart 3: income vs expenses, last 6 months ----------
