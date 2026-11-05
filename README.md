@@ -57,6 +57,7 @@ Living in a dorm means allowance, part-time gigs, and the occasional gift — no
 
 ```bash
 git clone https://github.com/MuhammadAhmadHamim/snitch.git
+cd snitch
 
 pip install -r requirements.txt
 
